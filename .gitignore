@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Checkpoints / data (too large for git, release separately if needed)
+*.ckpt
+*.pth
+*.pt
+checkpoints/
+data/
+*.bag
+
+# ROS
+build/
+devel/
+install/
+log/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
